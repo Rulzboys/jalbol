@@ -103,29 +103,4 @@
   }
 }
 
-/* Leaflet Map Styles */
-.leaflet-container {
-  height: 100%;
-  width: 100%;
-  border-radius: 0.5rem;
-}
-
-.custom-pothole-icon {
-  background: none !important;
-  border: none !important;
-}
-
-.custom-user-icon {
-  background: none !important;
-  border: none !important;
-}
-
-/* Fix Leaflet marker icons */
-.leaflet-marker-icon {
-  margin-left: -12px !important;
-  margin-top: -41px !important;
-}
-
-.leaflet-popup-content-wrapper {
-  border-radius: 0.5rem;
-}
+/* MapLibre GL CSS is imported in the component */
