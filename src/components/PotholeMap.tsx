@@ -102,7 +102,6 @@ export const PotholeMap: React.FC<PotholeMapProps> = ({
       
       <MapUpdater center={center} />
 
-      {/* Current user location */}
       {currentLocation && (
         <Marker
           position={[currentLocation.latitude, currentLocation.longitude]}
@@ -124,7 +123,6 @@ export const PotholeMap: React.FC<PotholeMapProps> = ({
         </Marker>
       )}
 
-      {/* Potholes */}
       {potholes.map((pothole) => (
         <Marker
           key={pothole.id}
